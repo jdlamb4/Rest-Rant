@@ -43,3 +43,19 @@ main {
   margin-left: 20px;
   background-color: white;
 }
+
+.showPage {
+    display: inline;
+}
+
+.rating h2 {
+    color: skyblue;
+}
+
+.description h2 {
+    color: skyblue;
+}
+
+.comments h2 {
+    color: skyblue;
+}
