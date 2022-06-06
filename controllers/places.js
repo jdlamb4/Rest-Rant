@@ -54,7 +54,7 @@ router.get('/:id', (req, res) => {
   }
 })
 
-router.delete('/places/:id', (req, res) => {
+router.delete('/:id', (req, res) => {
   let id = Number(req.params.id)
   if (isNaN(id)) {
     res.render('error404')
